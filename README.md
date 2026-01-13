@@ -7,6 +7,10 @@
 #### **Note:** This project was developed while following the [Daniel Bourke's FoodVision tutorial](https://www.learnpytorch.io/09_pytorch_model_deployment/#74-building-a-gradio-interface) - for learning purposes. The dataset and learning approach are inspired by his course, and I built this project to practice end-to-end model development, deployment, and portfolio creation.
 ---
 
+## 🔗 Live Demo
+Try the model online here: [FoodVision Mini on Hugging Face](https://huggingface.co/spaces/sonawilson/foodvision-mini)
+
+
 ## Features
 
 * Trains an EfficientNetB2 feature extractor on a small food dataset
@@ -84,6 +88,11 @@ python demo/foodvision_mini/app.py
 
 * Opens a Gradio interface
 * Upload an image to see predicted probabilities for pizza, steak, or sushi
+
+## ⚠️ Disclaimer
+Due to visual similarities between some foods (e.g., round sushi rolls and pizza), 
+the model may occasionally misclassify images. This is a known limitation of the dataset.
+
 
 ---
 
