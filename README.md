@@ -1,9 +1,10 @@
 
 # FoodVision Mini 🍕🥩🍣
 
+
 **A lightweight computer vision project that classifies images of food into pizza, steak, or sushi using PyTorch and EfficientNetB2.**
 
-**Note:** This project was developed while following the [Daniel Bourke's FoodVision tutorial](https://www.learnpytorch.io/09_pytorch_model_deployment/#74-building-a-gradio-interface) - 
+#### **Note:** This project was developed while following the [Daniel Bourke's FoodVision tutorial](https://www.learnpytorch.io/09_pytorch_model_deployment/#74-building-a-gradio-interface) - 
  for learning purposes. The dataset and learning approach are inspired by his course, and I built this project to practice end-to-end model development, deployment, and portfolio creation.
 ---
 
@@ -43,7 +44,7 @@ FoodVision-Mini/
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/SonasWilson/FoodVision-Mini.git
 cd FoodVision-Mini
 ```
 
