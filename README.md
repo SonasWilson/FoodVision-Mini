@@ -92,3 +92,7 @@ python demo/foodvision_mini/app.py
 * The project is **modular**, so you can swap the model, dataset, or transforms easily.
 * Designed to be **lightweight** for learning, demo, and portfolio purposes.
 
+> ⚠️ Note: Due to visual similarity between some foods (e.g., round sushi rolls and pizza),
+> the model may occasionally misclassify images. This is a known limitation of the dataset.
+
+
