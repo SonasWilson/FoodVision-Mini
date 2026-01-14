@@ -13,7 +13,7 @@ Try the model online here: [FoodVision Mini on Hugging Face](https://huggingface
 
 ## Features
 
-* Trains an EfficientNetB2 feature extractor on a small food dataset
+* Trains an EfficientNetB2 feature extractor on a small food dataset with a test accuracy of 95%
 * Automatically saves the **best-performing model** during training
 * Modular, clean code structure for training, data handling, and inference
 * Real-time interactive demo using Gradio
